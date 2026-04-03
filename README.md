@@ -1,2 +1,1 @@
-# personal_project
-practice
+# portfolio_website
