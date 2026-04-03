@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a2634 0%, #2e3c4f 50%, #455a70 100%);
+            color: #ecf0f5;
+            min-height: 130vh;
+        }
+        header, main, footer {
+            max-width: 1300px;
+            margin: auto;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+            margin-top: 20px;
+        }
+        h1, h2 {
+            color: #f0f5ff;
+            margin: 8px 0;
+        }
+        p {
+            color: #dce6f2;
+            line-height: 1.6;
+        }
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+        }
+        .box h2 {
+            margin: 0;
+            border: 2px solid rgba(255, 255, 255, 0.45);
+            padding: 18px 20px;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.18);
+            min-width: 140px;
+            text-align: left;
+            box-sizing: border-box;
+        }
+        .box h2 a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1rem;
+            display: inline-block;
+            width: 100%;
+        }
+        .box h2 a:hover {
+            color: #ffd347;
+        }
+        main > div {
+            text-align: left;
+            margin-top: 20px;
+            width: 100%;
+        }
+        img {
+            border: 3px solid rgba(255, 255, 255, 0.6);
+            border-radius: 6px;
+        }
+        .about-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .about-container img {
+            flex-shrink: 0;
+        }
+        .about-content {
+            flex: 1;
+            min-width: 250px;
+        }
+        .about-content h2 {
+            margin-top: 0;
+        }
+        footer h5 {
+            margin: 0;
+            padding: 10px 0;
+            text-align: center;
+            color: #c7d8e8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> My Portfolio</h1>
+        <div class="box">
+            <h2><a href="Education.html">Education</a></h2>
+            <h2><a href="Experience.html">Experience</a></h2>
+            <h2><a href="Training.html">Training</a></h2>
+            <h2><a href="projects.html">Projects</a></h2>
+            <h2><a href="Skills.html">Skills</a></h2>
+        </div>
+    </header>
+    <main>
+        <section class="about-container">
+            <img src="img.jpg" alt="Himanshi Gupta" height="250" width="200">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Hello! I'm Himanshi Gupta, a B.Tech graduate in Information Technology from Government Engineering College, Ajmer, with an excellent academic record (CGPA: 9.32). I'm a passionate, hardworking, and solution-oriented techie who believes in simplifying life through smart technologies.</p>
+                <p>From leading technical mini-projects to completing internships in AI and web development, I've developed a strong foundation in front-end technologies, programming languages, and teamwork. I am actively seeking opportunities where I can apply my knowledge, contribute meaningfully, and grow as a developer.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h5>Contact me :
+        <br>Email: guptahimanshi2703@gmail.com<br>linkedIn: https://www.linkedin.com/in/himanshi-gupta-232a9523b
+        </h5>
+    </footer>
+</body>
+</html>
